@@ -1,0 +1,73 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Estilo para el encabezado */
+.tienda_titulo {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+.carousel-section-2 {
+    padding: 20px;
+}
+
+/* Carrusel de productos */
+.carousel-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Estilo para cada producto */
+.producto {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.producto span {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
